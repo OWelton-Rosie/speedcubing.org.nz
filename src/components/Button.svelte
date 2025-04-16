@@ -17,7 +17,7 @@
     padding: 10px 24px;
     cursor: pointer;
     font-size: 16px;
-    margin: 8px;
+    width: 130px;
   }
 
   button:hover {

@@ -6,8 +6,12 @@
   <div class="header">
     <div class="header-items">
       <a href="/"><img src="logo/Full_white.webp" alt="SNZ logo" /></a>
-      <button class="hamburger" on:click={() => (menuOpen = !menuOpen)}>
-        ☰
+      <button
+        class="hamburger"
+        on:click={() => (menuOpen = !menuOpen)}
+        aria-label="menu"
+      >
+        <i class="bi bi-list"></i>
       </button>
     </div>
 
@@ -85,8 +89,17 @@
     }
     .nav {
       display: none;
+      position: absolute;
+      top: 100px;
       flex-direction: column;
       align-items: center;
+    }
+    .header-items {
+      justify-content: space-between;
+    }
+    .nav a {
+      padding: 8px;
+      background-color: #1a1a1b;
     }
     .nav.open {
       display: flex;
