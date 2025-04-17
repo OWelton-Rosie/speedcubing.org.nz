@@ -12,21 +12,21 @@
     "gallery/gallery7.webp",
     "gallery/gallery9.webp",
   ];
-  // let interval = setInterval(next, 4000);
+  let interval = setInterval(next, 6000);
 
   function next() {
-    resetInterval();
-    current = (current + 1) % slides.length;
-  }
-
-  function prev() {
     resetInterval();
     current = (current - 1 + slides.length) % slides.length;
   }
 
+  function prev() {
+    resetInterval();
+    current = (current + 1 + slides.length) % slides.length;
+  }
+
   function resetInterval() {
-    // clearInterval(interval);
-    // interval = setInterval(next, 4000);
+    clearInterval(interval);
+    interval = setInterval(next, 4000);
   }
 </script>
 
@@ -39,10 +39,10 @@
     />
   {/key}
 
-  <button on:click={next} class="left" aria-label="left"
+  <button on:click={prev} class="left" aria-label="left"
     ><i class="bi bi-chevron-left"></i></button
   >
-  <button on:click={prev} class="right" aria-label="right"
+  <button on:click={next} class="right" aria-label="right"
     ><i class="bi bi-chevron-right"></i></button
   >
 </div>
