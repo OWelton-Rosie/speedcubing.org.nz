@@ -15,12 +15,12 @@
 
     <div class="nav" class:open={menuOpen}>
       <a href="/">GETTING STARTED</a>
-      <a href="./competitions.html">COMPETITIONS</a>
-      <a href="./faq.html">TOP CUBERS</a>
-      <a href="./contact.html">ABOUT</a>
-      <a href="./contact.html">FAQ</a>
-      <a href="./contact.html">SHOP</a>
-      <a href="./contact.html">CONTACT</a>
+      <a href="./competitions">COMPETITIONS</a>
+      <a href="./faq">TOP CUBERS</a>
+      <a href="./contact">ABOUT</a>
+      <a href="./faq">FAQ</a>
+      <a href="./shop">SHOP</a>
+      <a href="./contact">CONTACT</a>
     </div>
   </div>
 </header>

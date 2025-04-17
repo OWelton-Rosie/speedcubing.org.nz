@@ -5,6 +5,7 @@
   import About from "../components/home/About.svelte";
   import ImageRow from "../components/home/ImageRow.svelte";
   import SubscribeRow from "../components/home/SubscribeRow.svelte";
+  import Footer from "../components/Footer.svelte";
 </script>
 
 <Header></Header>
@@ -12,3 +13,4 @@
 <About></About>
 <ImageRow></ImageRow>
 <SubscribeRow></SubscribeRow>
+<Footer></Footer>
