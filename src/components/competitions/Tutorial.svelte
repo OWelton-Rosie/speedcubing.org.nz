@@ -62,7 +62,6 @@
     text-align: center;
     align-items: center;
     width: 50%;
-    padding: 24px;
   }
   .box {
     position: relative;
