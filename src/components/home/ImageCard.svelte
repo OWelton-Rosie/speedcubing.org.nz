@@ -25,7 +25,7 @@
   }
   .title {
     font-weight: 400;
-    width: 70%;
+    width: 40%;
   }
   .text {
     font-weight: 100;
