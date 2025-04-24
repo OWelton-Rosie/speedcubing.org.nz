@@ -1,14 +1,11 @@
 async function loadCompetitions() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const dateParam = urlParams.get("date"); // "2025-01-28"
-
   const response = await fetch(
     "https://raw.githubusercontent.com/JackMaddigan/snz-comps-updater/main/data.json"
   );
 
   const comps = (await response.json()).competitions;
 
-  const today = new Date(dateParam || Date.now())
+  const today = new Date(Date.now())
     .toLocaleDateString("en-NZ", {
       timeZone: "Pacific/Auckland",
       year: "numeric",
