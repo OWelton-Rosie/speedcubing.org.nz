@@ -1,9 +1,9 @@
 <script>
+  import ContentColumn from "../ContentColumn.svelte";
   import Video from "../Video.svelte";
 </script>
 
-<section>
-  <div class="inner">
+  <ContentColumn>
     <h1>YOUR FIRST COMPETITION</h1>
     <h4>
       Before the competition we'll send you an email with all the information
@@ -17,12 +17,10 @@
         >competitor tutorial</a
       >, and watching the following video:
     </h4>
-    <div class="box">
-      <Video
-        title="WCA Competitor Tutorial"
-        src="https://www.youtube.com/embed/dPL3eV-A0ww"
-      ></Video>
-    </div>
+    <Video
+      title="WCA Competitor Tutorial"
+      src="https://www.youtube.com/embed/dPL3eV-A0ww">
+    </Video>
     <h4>
       Still have questions? Check out our <a href="./faq" class="blueLink"
         >FAQ page</a
@@ -47,31 +45,9 @@
       more, and contact us with the venue details so we can guide you through the
       rest of the process!
     </h4>
-  </div>
-</section>
+  </ContentColumn>
+    
 
 <style>
-  section {
-    background-color: var(--colorBlack2);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .inner {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    width: 50%;
-  }
-  .box {
-    position: relative;
-    height: auto;
-    aspect-ratio: 16/9;
-    padding: 24px;
-  }
-  @media screen and (max-width: 768px) {
-    .inner {
-      width: 100%;
-    }
-  }
+
 </style>
