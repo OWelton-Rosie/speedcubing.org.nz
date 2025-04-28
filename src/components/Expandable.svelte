@@ -7,8 +7,8 @@
 <div class="container" class:bottom={isBottom}>
   <button onclick={() => expanded =! expanded}>
     <div class="label">
-      <h3>{@html title}</h3>
-      <h3>{expanded ? "-" : "+"}</h3>
+      <h4>{@html title}</h4>
+      <h4>{expanded ? "-" : "+"}</h4>
     </div>
   </button>
     {#if expanded}

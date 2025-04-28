@@ -18,9 +18,10 @@
 
 <style>
   .video_container {
-    position: relative;
-    width: 100%;
-    height: auto;
+    width: auto;
+    margin: auto;
+    max-width: 100%;
+    max-height: 50vh;
     aspect-ratio: 16/9;
     box-sizing: border-box;
     padding: 32px;

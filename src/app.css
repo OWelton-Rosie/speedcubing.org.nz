@@ -36,6 +36,7 @@ h1 {
   color: var(--colorWhite);
   letter-spacing: -1px;
   padding: 1.8rem;
+  text-align: center;
 }
 
 h2 {
@@ -62,10 +63,6 @@ p {
 
 .blueLink{
   color: var(--colorBlue1);
-}
-
-.title{
-  text-align: center;
 }
 
 button {
