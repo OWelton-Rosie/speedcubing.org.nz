@@ -5,6 +5,7 @@
 <section>
     <ContentColumn>
       <div class="content">
+  
         <h1 class="title">SPEEDCUBING NEW ZEALAND</h1>
         <p>
           Speedcubing New Zealand is a not-for-profit, incorporated society run
