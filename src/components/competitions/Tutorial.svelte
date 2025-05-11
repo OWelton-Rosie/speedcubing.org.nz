@@ -5,7 +5,7 @@
 
 <section>
     <ContentColumn>
-      <h1 class="title">YOUR FIRST COMPETITION</h1>
+      <h2 class="title">YOUR FIRST COMPETITION</h2>
       <p>
         Before the competition we'll send you an email with all the information
         you need to know. We'll also run a tutorial for new competitors on
@@ -31,7 +31,7 @@
       </p>
       <br />
       <br />
-      <h1 class="title">ORGANISING A COMPETITION</h1>
+      <h2 class="title">ORGANISING A COMPETITION</h2>
       <p>
         Want a competition in your area? We're always on the lookout for more keen
         organisers!<br /><br />
@@ -51,9 +51,6 @@
     
 
 <style>
-  h1{
-    text-align: center;
-  }
   section{
     background-color: var(--colorBlack2);
   }

@@ -97,16 +97,12 @@
     text-align: left;
     font-weight: bold;
     border: 1px solid var(--colorBlack1);
-    color: var(--colorWhite);
+    color: #fff;
   }
   td {
     padding: 10px;
     text-align: left;
     border: 1px solid var(--colorBlack1);
-  }
-  td,
-  tr {
-    font-family: "Public Sans", serif;
   }
   .green {
     background-color: var(--colorGreen1);

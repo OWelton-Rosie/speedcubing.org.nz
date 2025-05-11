@@ -17,7 +17,7 @@
     <div class="nav" class:open={menuOpen}>
       <a href="./start">GETTING STARTED</a>
       <a href="./competitions">COMPETITIONS</a>
-      <a href="./nzs-best">NZ'S BEST</a>
+      <!-- <a href="./nzs-best">NZ'S BEST</a> -->
       <a href="./about">ABOUT</a>
       <a href="./faq">FAQ</a>
       <a href="./contact">CONTACT</a>

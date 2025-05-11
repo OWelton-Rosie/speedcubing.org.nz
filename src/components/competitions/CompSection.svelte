@@ -43,14 +43,9 @@
 <style>
   .loading {
     height: 500px;
-    padding-top: 32px;
     text-align: center;
     background-color: var(--colorBlack2);
     color: var(--colorWhite);
-  }
-
-  .container{
-    padding: 16px 0px;
   }
 
   section{
@@ -59,6 +54,10 @@
 
   p{
     text-align: center;
+  }
+
+  .container{
+    padding-bottom: 24px;
   }
 
   .upcoming,
