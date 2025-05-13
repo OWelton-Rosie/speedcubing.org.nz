@@ -3,34 +3,41 @@
 </script>
 
 <a href={link} aria-label="Club" target="_blank">
-<div>
-    <img alt="Club" {src} loading="lazy">
-    <p>{title}</p>
-    <i>{location}</i>
-</div>
+  <section>
+      <img alt="Club" {src} loading="lazy">
+      <div class="textbox">
+        <p>{title}</p>
+        <i>{location}</i>
+      </div>
+  </section>
 </a>
 
 
 <style>
   img{
-    width: 100%;
+    width: 80%;
     object-fit: cover;
     user-select: none;
   }
   p{
-    padding: 10% 0px;
+    font-weight: 500;
+    font-family: "Spartan MB", sans-serif;
   }
-  div{
+  section{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    /* justify-content: space-between; */
     background-color: #4a4a4b;
     border-radius: 8px;
     text-align: center;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
-    padding: 5%;
+    padding: 12px 4px 12px 4px;
     box-sizing: border-box;
+  }
+  .textbox{
+    padding-top: 16px;
   }
   i{
     color: var(--colorGrey2);

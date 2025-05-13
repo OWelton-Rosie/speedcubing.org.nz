@@ -22,7 +22,7 @@
     padding: 32px 0px;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 10px;
+    gap: 16px;
     box-sizing: border-box;
   }
 

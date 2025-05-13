@@ -17,7 +17,7 @@
   }
 
   .content{
-    width: 55%;
+    width: 60%;
     padding: 16px;
     box-sizing: border-box;
   }
