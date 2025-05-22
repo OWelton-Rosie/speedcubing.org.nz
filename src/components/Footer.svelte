@@ -21,18 +21,23 @@
 
 <style>
   .socials {
-    padding: 32px;
+    padding: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    gap: 0px 24px;
   }
   .icon {
     color: var(--colorWhite);
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--colorBlack2);
     color: var(--colorWhite);
+    height: 120px;
+    box-sizing: border-box;
   }
 </style>

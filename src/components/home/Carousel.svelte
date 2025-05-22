@@ -34,7 +34,7 @@
 <div class="carousel">
   <div class="slides" style="transform: {offset};">
     {#each imgSrcs as src}
-      <img src={src} alt="" loading="lazy">
+      <img src={src} alt="">
     {/each}
   </div>
 

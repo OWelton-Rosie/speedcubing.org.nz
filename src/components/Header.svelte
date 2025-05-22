@@ -20,7 +20,7 @@
       <a href="./nzs-best">NZ'S BEST</a>
       <a href="./about">ABOUT</a>
       <a href="./faq">FAQ</a>
-      <a href="./contact">CONTACT</a>
+      <a href="./contact-us">CONTACT</a>
     </div>
   </div>
 </header>

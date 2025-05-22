@@ -19,6 +19,9 @@
 </div>
 
 <style>
+  h3 {
+    font-weight: 400;
+  }
   button {
     all: unset;
     cursor: pointer;
@@ -27,7 +30,7 @@
   }
   .container{
     border-top: 1px solid var(--colorGrey2);
-    padding: 8px;
+    background-color: var(--colorCompTable2);
   }
   .bottom{
     border-bottom: 1px solid var(--colorGrey2);
@@ -37,9 +40,12 @@
     flex-direction: row;
     justify-content: space-between;
     user-select: none;
+    padding: 8px;
   }
   .content{
     color: var(--colorGrey1);
     padding: 8px 0px;
+    padding: 8px;
+    background-color: var(--colorBlack2);
   }
 </style>

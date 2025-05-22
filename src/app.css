@@ -45,20 +45,17 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'Calibri';
-  src: url('/fonts/calibri_bold.ttf');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
 body{
   margin: 0;
   font-family: "Calibri", sans-serif;
   font-weight: 300;
   overflow-x: hidden;
   background-color: var(--colorBlack3);
+}
+
+input, textarea{
+  font-family: "Calibri", sans-serif;
+  font-size: clamp(1.1rem, 1.4vw, 1.43rem);
 }
 
 h1, h2, h3, h4, p{
@@ -106,13 +103,13 @@ p {
 }
 
 button {
-  font-weight: 400;
+  font-weight: 300;
   font-size: clamp(1.1rem, 1.4vw, 1.43rem);
   border: 1px solid var(--colorGrey1);
   border-radius: 5px;
   background: none;
   color: var(--colorGrey1);
-  padding: 12px 24px;
+  padding: 10px 20px;
   cursor: pointer;
 }
 

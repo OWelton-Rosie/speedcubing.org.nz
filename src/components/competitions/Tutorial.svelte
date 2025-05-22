@@ -27,7 +27,7 @@
           >FAQ page</a
         >
         to find answers to all sorts of common questions, or feel free to
-        <a href="./contact" class="blueLink">contact us</a>.
+        <a href="./contact-us" class="blueLink">contact us</a>.
       </p>
       <br />
       <br />

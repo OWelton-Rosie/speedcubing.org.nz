@@ -83,6 +83,13 @@
     align-items: center;
   }
 
+  form {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 16px 8px;
+  }
+  
   input {
     border: none;
     border-bottom: 1px solid var(--colorGrey2);
@@ -93,20 +100,6 @@
     font-size: clamp(1rem, 1.2vw, 1.3rem);
   }
 
-  input[type="text"] {
-    width: 130px;
-  } 
-
-  input[type="email"] {
-    width: 250px;
-  }
-  
-  form {
-    display: flex;
-    align-items: center;
-    gap: 32px;
-    padding: 16px 8px;
-  }
   input:focus {
     outline: none;
     box-shadow: none;
