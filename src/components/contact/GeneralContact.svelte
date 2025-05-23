@@ -17,6 +17,7 @@
     formData.append("name", name);
     formData.append("email", email);
     formData.append("message", message);
+    formData.append("form-name", "contact");
 
     fetch(window.location.pathname, {
       method: "POST",
@@ -33,7 +34,7 @@
   {#if sent}
     <p>Thanks for contacting us!<br>We will be in touch shortly.</p>
   {:else}
-    <form name="contact" id="contact-form" on:submit|preventDefault={handleSubmit} netlify>
+    <form name="contact" method="POST" data-netlify="true"  on:submit|preventDefault={handleSubmit}>
       <label for="name">Name</label>
       <input type="text" id="name" name="name" bind:value={name}/>
       
