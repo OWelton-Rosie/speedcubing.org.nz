@@ -3,7 +3,7 @@
 </svelte:head>
 
 <script>
-	
+	export const prerender = true;
   import "../app.css";
   import Header from "../components/Header.svelte";
   import Carousel from "../components/home/Carousel.svelte";

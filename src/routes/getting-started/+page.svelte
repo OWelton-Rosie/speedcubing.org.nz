@@ -3,6 +3,7 @@
 </svelte:head>
 
 <script>
+  export const prerender = true;
   import "../../app.css";
   import ContentColumn from "../../components/ContentColumn.svelte";
   import Footer from "../../components/Footer.svelte";
