@@ -34,7 +34,8 @@
   {#if sent}
     <p>Thanks for contacting us!<br>We will be in touch shortly.</p>
   {:else}
-    <form name="contact" method="POST" data-netlify="true"  on:submit|preventDefault={handleSubmit}>
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" on:submit|preventDefault={handleSubmit}>
+      <input type="hidden" name="form-name" value="contact" />
       <label for="name">Name</label>
       <input type="text" id="name" name="name" bind:value={name}/>
       

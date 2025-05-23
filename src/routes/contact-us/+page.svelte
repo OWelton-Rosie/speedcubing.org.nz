@@ -3,7 +3,6 @@
 </svelte:head>
 
 <script>
-  export const prerender = true;
   import "../../app.css";
   import GeneralContact from "../../components/contact/GeneralContact.svelte";
   import Links from "../../components/contact/Links.svelte";
