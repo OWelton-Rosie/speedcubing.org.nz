@@ -10,24 +10,24 @@
   })
 </script>
 
-<section class="container" id="competitions">
+<section id="competitions">
   {#if !data}
     <div class="loading">Loading Competitions...</div>
   {:else}
     <section>
       {#if data.current.length}
       <section class="current">
-          <h2>CURRENT COMPETITIONS</h2>
-          <CompTable tableType="blue" comps={data.current}></CompTable>
+        <h2>CURRENT COMPETITIONS</h2>
+        <CompTable type="current" comps={data.current}></CompTable>
       </section>
       {/if}
       <section class="upcoming">
         <h2 class="title">UPCOMING COMPETITIONS</h2>
-        <CompTable tableType="green" comps={data.upcoming}></CompTable>
+        <CompTable type="upcoming" comps={data.upcoming}></CompTable>
       </section>
       <section class="recent">
         <h2 class="title">RECENT COMPETITIONS</h2>
-        <CompTable tableType="red" comps={data.recent}></CompTable>
+        <CompTable type="recent" comps={data.recent}></CompTable>
       </section>
       <p>
         To see all past competitions, click <a
@@ -50,26 +50,14 @@
 
   section{
     background-color: var(--colorBlack2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
   }
 
   p{
     text-align: center;
-  }
-
-  .container{
-    padding-bottom: 24px;
-  }
-
-  .upcoming,
-  .current,
-  .recent {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    width: 100%;
-    padding: 16px;
-    box-sizing: border-box;
   }
 
 </style>
