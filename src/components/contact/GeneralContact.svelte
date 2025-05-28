@@ -71,6 +71,9 @@
     font-size: clamp(1rem, 1.2vw, 1.3rem);
     font-weight: 300;
   }
+  textarea {
+    height: 150px;
+  }
   label{
     color: var(--colorGrey1);
     padding: 8px 0px 8px 0px;
