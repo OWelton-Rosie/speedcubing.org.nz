@@ -9,7 +9,6 @@
 </script>
 <Header></Header>
 <iframe src="https://snzportal.netlify.app/" title="SNZ Portal"></iframe>
-<Footer></Footer>
 
 <style>
   iframe{
