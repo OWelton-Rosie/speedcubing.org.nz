@@ -14,7 +14,7 @@
           resources, and fostering a positive environment for cubers of all skill
           levels.
         </p>
-        <button onclick={() => window.location.href="./about"}>ABOUT US</button>
+        <button onclick={() => window.location.href="./about"} class="btn">ABOUT US</button>
       </div>
     </ContentColumn>
     

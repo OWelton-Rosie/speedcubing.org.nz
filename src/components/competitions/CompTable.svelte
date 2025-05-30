@@ -127,7 +127,7 @@
   .col1, .col2, .col3, .col4 {
     display: flex;
     flex-direction: column;
-    padding: 4px 8px;
+    padding: 8px 8px;
     box-sizing: border-box;
     justify-content: center;
   }

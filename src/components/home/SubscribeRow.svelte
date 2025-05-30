@@ -52,7 +52,7 @@
         <input type="text" placeholder="Name" id="name" bind:value={myName} required/>
         <input type="email" placeholder="Email Address" id="email" bind:value={myEmail} required/>
       {#if !formProcessedOk}
-        <button type="submit" disabled={loading}>SIGN UP</button>
+        <button type="submit" disabled={loading} class="btn">SIGN UP</button>
       {/if}
     </form>
     <div>
