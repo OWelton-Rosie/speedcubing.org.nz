@@ -48,7 +48,7 @@
             <!-- Event icons and action row if desktop only (else they go in row below)-->
             {#if (width > 768)}
               <EventIconsRow events={comp.events}></EventIconsRow>
-              {#if (comp.regClosed)}
+              {#if (comp.regClosed || type === "current")}
                   <ActionRow {comp}></ActionRow>
               {/if}
             {/if}
