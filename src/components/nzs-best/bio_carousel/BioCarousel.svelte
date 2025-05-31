@@ -4,7 +4,7 @@
   import Card from "./Card.svelte";
   import { onMount } from "svelte";
   let n = 0;
-  $: offset = `translateX(calc(-${n} * 70% + 15%))`;
+  $: offset = `translateX(calc(-${n} * 35% + 15%))`;
   let slides;
   let carousel;
 
@@ -60,10 +60,11 @@
   .slides {
     display: flex;
     flex-direction: row;
+    position: relative;
     height: 100%;
     width: 100%;
     align-items: center;
-    transition: transform 0.8s ease;
+    transition: transform 0.5s ease;
   }
 
   button {
