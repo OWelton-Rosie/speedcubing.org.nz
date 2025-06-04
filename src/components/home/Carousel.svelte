@@ -3,12 +3,15 @@
   import { tick } from "svelte";
 
   const imgSrcs = [
-    "gallery/gallery3.jpg",
-    "gallery/gallery2.jpg",
-    "gallery/gallery5.webp",
-    "gallery/gallery6.webp",
-    "gallery/gallery7.webp",
-    "gallery/gallery9.webp",
+    "gallery/Carousel 1.webp",
+    "gallery/Carousel 4.webp",
+    "gallery/Carousel 5.webp",
+    "gallery/Carousel 8.webp",
+    "gallery/Carousel 6.webp",
+    "gallery/Carousel 2.webp",
+    "gallery/Carousel 3.webp",
+    "gallery/Carousel 7.webp",
+    "gallery/Carousel 9.webp",
   ];
 
   let interval = setInterval(next, 5000);
@@ -20,17 +23,22 @@
   // If slide is prev or active, do the 0.5s transition, else transition instantly
   let lastActive = $state(0);
   let active = $state(0);
+  let smoothTransform = $state(true);
 
   // initialise transforms for each image to 0
   // except last, which needs to be to the left of the first slide
   let transforms = $state(imgSrcs.map((_, i) =>  i === imgSrcs.length - 1 ? -100*imgSrcs.length : 0));
 
   async function handleClick(goal){
+    smoothTransform = false;
+    await new Promise(resolve => setTimeout(resolve, 50));
     let diff = goal - active;
-      for(let i=0; i<Math.abs(diff); i++){
-        if(diff < 0){ prev(); }
-        else { next(); }
-      }
+    for(let i=0; i<Math.abs(diff); i++){
+      if(diff < 0){ prev(); }
+      else { next(); }
+    }
+    await new Promise(resolve => setTimeout(resolve, 50));
+    smoothTransform = true;
   }
 
   /* Move the carousel forwards */
@@ -93,7 +101,9 @@
   <div class="carousel_items">
     {#each imgSrcs as src, i}
       <div class="carousel_item" 
-        style="transform: translateX({transforms[i]}%); transition: transform {(i==active || i==lastActive) ? "0.5s" : "0s"} ease;">
+        style="transform: translateX({transforms[i]}%);"
+        class:smooth_transform={(i==active || i==lastActive) && smoothTransform}
+      >
         <img src={src} alt="{i} of {imgSrcs.length}">
       </div>
     {/each}
@@ -135,7 +145,7 @@
   }
   .carousel {
     width: 100%;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
     overflow: hidden;
     position: relative;
   }
@@ -155,6 +165,9 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+  }
+  .smooth_transform {
+    transition: transform 0.5s ease;
   }
   .left, .right {
     padding: 0px;
