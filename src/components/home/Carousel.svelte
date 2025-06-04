@@ -2,15 +2,15 @@
   import "bootstrap-icons/font/bootstrap-icons.css";
 
   const imgSrcs = [
-    "gallery/carousel_1.webp",
-    "gallery/carousel_2.webp",
-    "gallery/carousel_5.webp",
-    "gallery/carousel_8.webp",
-    "gallery/carousel_6.webp",
-    "gallery/carousel_2.webp",
-    "gallery/carousel_3.webp",
-    "gallery/carousel_7.webp",
-    "gallery/carousel_9.webp",
+    "gallery/c1.webp",
+    "gallery/c2.webp",
+    "gallery/c3.webp",
+    "gallery/c4.webp",
+    "gallery/c5.webp",
+    "gallery/c6.webp",
+    "gallery/c7.webp",
+    "gallery/c8.webp",
+    "gallery/c9.webp",
   ];
 
   let interval = setInterval(next, 5000);
