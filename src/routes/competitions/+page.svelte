@@ -20,7 +20,7 @@
   <p>
     Competitions are one of the best ways to get involved in speedcubing! Don't
     be fooled by the name - more than anything, these are social events where
-    you can get to know other poeple who share the same amazing hobby. Newcomers
+    you can get to know other people who share the same awesome hobby. Newcomers
     consistenty have an amazing experience, and often make lifelong friends
     here.<br /><br />Competitions are generally open to anyone, regardless of
     age or level of experience. If you can solve a cube, you're more than

@@ -11,7 +11,6 @@ import Event555 from './events/Event555.svelte';
 import Event555bf from './events/Event555bf.svelte';
 import Event666 from './events/Event666.svelte';
 import Event777 from './events/Event777.svelte';
-
 import EventClock from './events/EventClock.svelte';
 import EventMinx from './events/EventMinx.svelte';
 import EventPyram from './events/EventPyram.svelte';

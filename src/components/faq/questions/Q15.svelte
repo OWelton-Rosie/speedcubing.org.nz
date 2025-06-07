@@ -1,0 +1,1 @@
+<p>Yes! We allow as many guests as you’d like at most of our competitions.</p>
