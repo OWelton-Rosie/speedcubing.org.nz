@@ -1,11 +1,12 @@
 <script>
   import { slide } from 'svelte/transition';
-  let {title, children, isBottom=false} = $props();
-  let expanded = $state(false);
+  let {title, children, isBottom=false, n} = $props();
+
+  let expanded = false;
 </script>
 
 <div class="container" class:bottom={isBottom}>
-  <button onclick={() => expanded =! expanded}>
+  <button onclick={() => {}}>
     <div class="label">
       <h3>{@html title}</h3>
       <h3 class="plus">{expanded ? "-" : "+"}</h3>

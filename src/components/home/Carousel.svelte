@@ -13,10 +13,10 @@
     "gallery/c9.webp",
   ];
 
-  let interval = setInterval(next, 5000);
+  let interval = setInterval(next, 6000);
   function resetInterval(){
     clearInterval(interval);
-    interval = setInterval(next, 5000);
+    interval = setInterval(next, 6000);
   }
 
   // If slide is prev or active, do the 0.5s transition, else transition instantly

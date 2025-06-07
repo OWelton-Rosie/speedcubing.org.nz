@@ -1,63 +1,57 @@
 <script>
-  import Expandable from "../Expandable.svelte";
+  import { slide, fade } from "svelte/transition";
+  import { events } from "./eventsInfoData";
+  let active = $state(-1);
 </script>
 
 <section id="events_info">
-  <Expandable title="<span class='cubing-icon event-333'></span> 3x3 CUBE">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-222'></span> 2x2 CUBE">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-444'></span> 4x4 CUBE">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-555'></span> 5x5 CUBE">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-666'></span> 6x6 CUBE">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-777'></span> 7x7 CUBE">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-333bf'></span> 3x3 BLINDFOLDED">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-clock'></span> CLOCK">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-333fm'></span> 3x3 FEWEST MOVES">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-333oh'></span> 3x3 ONE-HANDED">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-minx'></span> MEGAMINX">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-pyram'></span> PYRAMINX">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-skewb'></span> SKEWB">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-sq1'></span> SQUARE-1">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-444bf'></span> 4x4 BLINDFOLDED">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-555bf'></span> 5x5 BLINDFOLDED">
-    Nothing here yet
-  </Expandable>
-  <Expandable title="<span class='cubing-icon event-333mbf'></span> 3x3 MULTI-BLIND" isBottom="true">
-    Nothing here yet
-  </Expandable>
+  <div class="line"></div>
+  {#each events as {id, component: Component, title}, i}
+    <div class="item">
+      <button type="button" class="title_btn" onclick={() => active = active === i ? -1 : i}>
+        <h3 class="title"><span class='cubing-icon event-{id}'></span>{@html title}</h3>
+        <h3>{active === i ? "-" : "+"}</h3>
+      </button>
+      {#if active === i}
+        <div class="outer" transition:slide={{duration: 200}}>
+          <div class="inner">
+            <Component></Component>
+          </div>
+        </div>
+      {/if}
+    </div>
+    <div class="line"></div>
+  {/each}
 </section>
 
 <style>
   section{
     padding: 32px 0px;
+  }
+  .inner {
+    padding: 8px 0px 24px 0px;
+  }
+  .title_btn {
+    all: unset;
+    cursor: pointer;
+    box-sizing: border-box;
+    touch-action: manipulation;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 12px 0px;
+  }
+  .title {
+    font-weight: 400;
+  }
+  .cubing-icon {
+    padding-right: 12px;
+  }
+  .line {
+    height: 1px;
+    background-color: var(--colorGrey2);
+    width: 100%;
   }
 </style>
