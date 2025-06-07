@@ -33,8 +33,8 @@ export const events = [
   { id: 'pyram', component: EventPyram, title: 'PYRAMINX' },
   { id: 'skewb', component: EventSkewb, title: 'SKEWB' },
   { id: 'sq1', component: EventSq1, title: 'SQ1' },
-  { id: '444bf', component: Event444bf, title: '4x4 Blindfolded' },
-  { id: '555bf', component: Event555bf, title: '5x5 Blindfolded' },
+  { id: '444bf', component: Event444bf, title: '4x4 BLINDFOLDED' },
+  { id: '555bf', component: Event555bf, title: '5x5 BLINDFOLDED' },
   { id: '333mbf', component: Event333mbf, title: '3x3 MULTI-BLIND' },
 
 ];
