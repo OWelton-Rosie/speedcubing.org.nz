@@ -13,7 +13,6 @@
         experience. To make sure you're extra prepared though, we'd also suggest
         reading the official
         <a
-          class="blueLink"
           href="https://documents.worldcubeassociation.org/edudoc/competitor-tutorial/tutorial.pdf"
           >competitor tutorial</a
         >, and watching the following video:
@@ -23,11 +22,11 @@
         src="https://www.youtube.com/embed/dPL3eV-A0ww">
       </Video>
       <p>
-        Still have questions? Check out our <a href="./faq" class="blueLink"
+        Still have questions? Check out our <a href="./faq"
           >FAQ page</a
         >
         to find answers to all sorts of common questions, or feel free to
-        <a href="./contact-us" class="blueLink">contact us</a>.
+        <a href="./contact-us">contact us</a>.
       </p>
       <br />
       <br />
@@ -42,7 +41,7 @@
         per competitor, and cost no more than $30 per competitor.<br /><br />If
         you think you've found a suitable venue and want to go further, please
         read our
-        <a href="/docs/organiser_guide.pdf" class="blueLink">organiser guide</a> to learn
+        <a href="/docs/organiser-guide.pdf">organiser guide</a> to learn
         more, and contact us with the venue details so we can guide you through the
         rest of the process!
       </p>

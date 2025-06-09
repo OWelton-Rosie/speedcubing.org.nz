@@ -114,10 +114,6 @@
 </section>
 
 <style>
-  a {
-    color: var(--colorBlue1);
-    text-decoration: none;
-  }
   section{
     padding-bottom: 32px;
   }
