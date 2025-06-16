@@ -1,3 +1,5 @@
+<!-- Row of images on the competitions page, which can be scrolled on mobile -->
+
 <script>
   const images = [
     "i1.webp",

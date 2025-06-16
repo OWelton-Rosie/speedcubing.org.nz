@@ -1,3 +1,5 @@
+<!-- Tutorial section at the bottom of the competitions page -->
+
 <script>
   import ContentColumn from "$lib/components/ContentColumn.svelte";
   import Video from "$lib/components/Video.svelte";

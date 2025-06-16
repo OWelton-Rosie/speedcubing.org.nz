@@ -6,9 +6,9 @@
   import PageTitle from "$lib/components/PageTitle.svelte";
   import Video from "$lib/components/Video.svelte";
 
-  import CompSection from "./CompSection.svelte";
   import Tutorial from "./Tutorial.svelte";
   import ImageRow from "./ImageRow.svelte";
+  import Competitions from "./Competitions.svelte";
   
   const imagePath = "/competitions/title-bg.webp";
   const title = `COMPETITIONS`;
@@ -31,6 +31,6 @@
     >, the governing body for speedcubing worldwide.
   </p>
 </PageTitle>
-<CompSection></CompSection>
+<Competitions></Competitions>
 <ImageRow></ImageRow>
 <Tutorial></Tutorial>

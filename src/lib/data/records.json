@@ -1,0 +1,334 @@
+{
+  "222": {
+    "single": [
+      {
+        "personId": "2022JOHN14",
+        "eventId": "222",
+        "best": 47,
+        "name": "Connor Johnson",
+        "link": "https://youtu.be/ZcirwweNCl0"
+      }
+    ],
+    "average": [
+      {
+        "personId": "2022JOHN14",
+        "eventId": "222",
+        "best": 128,
+        "name": "Connor Johnson",
+        "link": "https://youtu.be/KWALo8fk3A4"
+      }
+    ]
+  },
+  "333": {
+    "single": [
+      {
+        "personId": "2019RAMO05",
+        "eventId": "333",
+        "best": 454,
+        "name": "Dwyane Ramos",
+        "link": "https://www.instagram.com/p/DE9cZJTPmH9/"
+      }
+    ],
+    "average": [
+      {
+        "personId": "2018MURR03",
+        "eventId": "333",
+        "best": 600,
+        "name": "Jasper Murray",
+        "link": ""
+      }
+    ]
+  },
+  "444": {
+    "single": [
+      {
+        "personId": "2019VUJC01",
+        "eventId": "444",
+        "best": 2043,
+        "name": "Alexander Vujcich",
+        "link": ""
+      }
+    ],
+    "average": [
+      {
+        "personId": "2019VUJC01",
+        "eventId": "444",
+        "best": 2500,
+        "name": "Alexander Vujcich",
+        "link": ""
+      }
+    ]
+  },
+  "555": {
+    "single": [
+      {
+        "personId": "2019VUJC01",
+        "eventId": "555",
+        "best": 4065,
+        "name": "Alexander Vujcich",
+        "link": ""
+      }
+    ],
+    "average": [
+      {
+        "personId": "2019VUJC01",
+        "eventId": "555",
+        "best": 4463,
+        "name": "Alexander Vujcich",
+        "link": ""
+      }
+    ]
+  },
+  "666": {
+    "single": [
+      {
+        "personId": "2019RAMO05",
+        "eventId": "666",
+        "best": 8238,
+        "name": "Dwyane Ramos",
+        "link": ""
+      }
+    ],
+    "average": [
+      {
+        "personId": "2019RAMO05",
+        "eventId": "666",
+        "best": 8745,
+        "name": "Dwyane Ramos",
+        "link": ""
+      }
+    ]
+  },
+  "777": {
+    "single": [
+      {
+        "personId": "2019RAMO05",
+        "eventId": "777",
+        "best": 12908,
+        "name": "Dwyane Ramos",
+        "link": ""
+      }
+    ],
+    "average": [
+      {
+        "personId": "2019RAMO05",
+        "eventId": "777",
+        "best": 13336,
+        "name": "Dwyane Ramos",
+        "link": ""
+      }
+    ]
+  },
+  "333bf": {
+    "single": [
+      {
+        "personId": "2015MACD03",
+        "eventId": "333bf",
+        "best": 1855,
+        "name": "James Macdiarmid",
+        "link": ""
+      }
+    ],
+    "average": [
+      {
+        "personId": "2015MACD03",
+        "eventId": "333bf",
+        "best": 2127,
+        "name": "James Macdiarmid",
+        "link": ""
+      }
+    ]
+  },
+  "333fm": {
+    "single": [
+      {
+        "personId": "2013NELS01",
+        "eventId": "333fm",
+        "best": 20,
+        "name": "Tom Nelson",
+        "link": ""
+      }
+    ],
+    "average": [
+      {
+        "personId": "2013NELS01",
+        "eventId": "333fm",
+        "best": 2233,
+        "name": "Tom Nelson",
+        "link": ""
+      }
+    ]
+  },
+  "333oh": {
+    "single": [
+      {
+        "personId": "2019RAMO05",
+        "eventId": "333oh",
+        "best": 712,
+        "name": "Dwyane Ramos",
+        "link": ""
+      }
+    ],
+    "average": [
+      {
+        "personId": "2019RAMO05",
+        "eventId": "333oh",
+        "best": 847,
+        "name": "Dwyane Ramos",
+        "link": "https://www.instagram.com/p/DIDmnDlzfjH/"
+      }
+    ]
+  },
+  "clock": {
+    "single": [
+      {
+        "personId": "2022GIBS04",
+        "eventId": "clock",
+        "best": 182,
+        "name": "Lachlan Gibson",
+        "link": "https://youtube.com/shorts/Fmpc418VflE"
+      }
+    ],
+    "average": [
+      {
+        "personId": "2022GIBS04",
+        "eventId": "clock",
+        "best": 228,
+        "name": "Lachlan Gibson",
+        "link": "https://youtu.be/1uT35-AhUOw"
+      }
+    ]
+  },
+  "minx": {
+    "single": [
+      {
+        "personId": "2019VUJC01",
+        "eventId": "minx",
+        "best": 2405,
+        "name": "Alexander Vujcich",
+        "link": ""
+      }
+    ],
+    "average": [
+      {
+        "personId": "2019VUJC01",
+        "eventId": "minx",
+        "best": 2847,
+        "name": "Alexander Vujcich",
+        "link": ""
+      }
+    ]
+  },
+  "pyram": {
+    "single": [
+      {
+        "personId": "2022JOHN14",
+        "eventId": "pyram",
+        "best": 82,
+        "name": "Connor Johnson",
+        "link": ""
+      }
+    ],
+    "average": [
+      {
+        "personId": "2018MURR03",
+        "eventId": "pyram",
+        "best": 140,
+        "name": "Jasper Murray",
+        "link": "https://youtu.be/Yp8q26bE_vA"
+      }
+    ]
+  },
+  "skewb": {
+    "single": [
+      {
+        "personId": "2019RAMO05",
+        "eventId": "skewb",
+        "best": 117,
+        "name": "Dwyane Ramos",
+        "link": ""
+      }
+    ],
+    "average": [
+      {
+        "personId": "2019RAMO05",
+        "eventId": "skewb",
+        "best": 226,
+        "name": "Dwyane Ramos",
+        "link": "https://youtu.be/EEOeMwD9wuw"
+      }
+    ]
+  },
+  "sq1": {
+    "single": [
+      {
+        "personId": "2018MATY02",
+        "eventId": "sq1",
+        "best": 447,
+        "name": "Adrien Auvray Matyn",
+        "link": "https://youtu.be/iNtbAkdb6WE"
+      }
+    ],
+    "average": [
+      {
+        "personId": "2018MATY02",
+        "eventId": "sq1",
+        "best": 565,
+        "name": "Adrien Auvray Matyn",
+        "link": "https://youtu.be/Q-U0go61WCU"
+      }
+    ]
+  },
+  "444bf": {
+    "single": [
+      {
+        "personId": "2013NELS01",
+        "eventId": "444bf",
+        "best": 10775,
+        "name": "Tom Nelson",
+        "link": "https://youtu.be/ltD7XMIu7tc"
+      }
+    ],
+    "average": [
+      {
+        "personId": "2013NELS01",
+        "eventId": "444bf",
+        "best": 13937,
+        "name": "Tom Nelson",
+        "link": "https://youtu.be/4_M4fUVf4_w"
+      }
+    ]
+  },
+  "555bf": {
+    "single": [
+      {
+        "personId": "2013NELS01",
+        "eventId": "555bf",
+        "best": 22713,
+        "name": "Tom Nelson",
+        "link": ""
+      }
+    ],
+    "average": [
+      {
+        "personId": "2013NELS01",
+        "eventId": "555bf",
+        "best": 27624,
+        "name": "Tom Nelson",
+        "link": "https://youtu.be/pBDPKIhMDpU"
+      }
+    ]
+  },
+  "333mbf": {
+    "single": [
+      {
+        "personId": "2015MACD03",
+        "eventId": "333mbf",
+        "best": 520354303,
+        "name": "James Macdiarmid",
+        "link": "https://youtu.be/HO6Pvsy-ejs"
+      }
+    ],
+    "average": null
+  }
+}
