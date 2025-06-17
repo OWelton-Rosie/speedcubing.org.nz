@@ -43,6 +43,6 @@ jobs:
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "github-actions@github.com"
-          git add data.json
+          git add src/lib/data/records.json
           git commit -m "Update records.json"
           git push
