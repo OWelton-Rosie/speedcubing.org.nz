@@ -48,7 +48,9 @@
   .nav {
     display: flex;
     flex-direction: row;
-    gap: 0px 48px;
+    gap: 16px 48px;
+    padding: 8px 0px 32px 0px;
+    box-sizing: border-box;
   }
 
   .hamburger {
@@ -107,9 +109,6 @@
       align-items: center;
       background-color: var(--colorBlack3);
       width: 100%;
-    }
-    .nav a {
-      padding: clamp(12px, 2vw, 20px);
     }
     .nav.open {
       display: flex;
