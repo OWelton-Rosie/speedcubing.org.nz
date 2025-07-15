@@ -342,30 +342,5 @@
       "pyram"
     ],
     "date_range": "Jun 21, 2025"
-  },
-  {
-    "id": "MilfordWinterWarmUp2025",
-    "name": "Milford Winter Warm Up 2025",
-    "venue": "Milford Primary School",
-    "city": "Auckland",
-    "registration_open": "2025-05-03T00:00:00.000Z",
-    "registration_close": "2025-06-08T00:00:00.000Z",
-    "start_date": "2025-06-14",
-    "end_date": "2025-06-15",
-    "website": "https://www.worldcubeassociation.org/competitions/MilfordWinterWarmUp2025",
-    "url": "https://www.worldcubeassociation.org/competitions/MilfordWinterWarmUp2025",
-    "latitude_degrees": -36.775622,
-    "longitude_degrees": 174.761586,
-    "event_ids": [
-      "333",
-      "222",
-      "444",
-      "555",
-      "333oh",
-      "clock",
-      "minx",
-      "pyram"
-    ],
-    "date_range": "Jun 14 - 15, 2025"
   }
 ]
