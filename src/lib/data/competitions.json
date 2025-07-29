@@ -131,6 +131,36 @@
     "date_range": "Sep 20, 2025"
   },
   {
+    "id": "EyesOpenOpenOtautahi2025",
+    "name": "Eyes Open Open - Ōtautahi 2025",
+    "venue": "WEA Christchurch",
+    "city": "Christchurch",
+    "registration_open": "2025-08-01T00:00:00.000Z",
+    "registration_close": "2025-09-13T00:00:00.000Z",
+    "start_date": "2025-09-20",
+    "end_date": "2025-09-21",
+    "website": "https://www.worldcubeassociation.org/competitions/EyesOpenOpenOtautahi2025",
+    "url": "https://www.worldcubeassociation.org/competitions/EyesOpenOpenOtautahi2025",
+    "latitude_degrees": -43.529548,
+    "longitude_degrees": 172.631635,
+    "event_ids": [
+      "333",
+      "222",
+      "444",
+      "555",
+      "666",
+      "777",
+      "333fm",
+      "333oh",
+      "clock",
+      "minx",
+      "pyram",
+      "skewb",
+      "sq1"
+    ],
+    "date_range": "Sep 20 - 21, 2025"
+  },
+  {
     "id": "NZCubingintheCapital2025",
     "name": "NZ Cubing in the Capital 2025",
     "venue": "Johnsonville Club",
@@ -269,6 +299,29 @@
     "date_range": "Jul 11 - 13, 2025"
   },
   {
+    "id": "CopinginAuckland2025",
+    "name": "Coping in Auckland 2025",
+    "venue": "Drury Hall",
+    "city": "Auckland",
+    "registration_open": "2025-05-01T06:00:00.000Z",
+    "registration_close": "2025-07-01T05:28:27.000Z",
+    "start_date": "2025-07-05",
+    "end_date": "2025-07-05",
+    "website": "https://www.worldcubeassociation.org/competitions/CopinginAuckland2025",
+    "url": "https://www.worldcubeassociation.org/competitions/CopinginAuckland2025",
+    "latitude_degrees": -37.102408,
+    "longitude_degrees": 174.952624,
+    "event_ids": [
+      "333",
+      "222",
+      "555",
+      "333bf",
+      "pyram",
+      "skewb"
+    ],
+    "date_range": "Jul 5, 2025"
+  },
+  {
     "id": "WaihopaiWinter2025",
     "name": "Waihopai Winter 2025",
     "venue": "Invercargill City Library",
@@ -292,28 +345,5 @@
       "skewb"
     ],
     "date_range": "Jul 5 - 6, 2025"
-  },
-  {
-    "id": "CopinginAuckland2025",
-    "name": "Coping in Auckland 2025",
-    "venue": "Drury Hall",
-    "city": "Auckland",
-    "registration_open": "2025-05-01T06:00:00.000Z",
-    "registration_close": "2025-07-01T05:28:27.000Z",
-    "start_date": "2025-07-05",
-    "end_date": "2025-07-05",
-    "website": "https://www.worldcubeassociation.org/competitions/CopinginAuckland2025",
-    "url": "https://www.worldcubeassociation.org/competitions/CopinginAuckland2025",
-    "latitude_degrees": -37.102408,
-    "longitude_degrees": 174.952624,
-    "event_ids": [
-      "333",
-      "222",
-      "555",
-      "333bf",
-      "pyram",
-      "skewb"
-    ],
-    "date_range": "Jul 5, 2025"
   }
 ]
