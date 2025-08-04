@@ -299,29 +299,6 @@
     "date_range": "Jul 11 - 13, 2025"
   },
   {
-    "id": "CopinginAuckland2025",
-    "name": "Coping in Auckland 2025",
-    "venue": "Drury Hall",
-    "city": "Auckland",
-    "registration_open": "2025-05-01T06:00:00.000Z",
-    "registration_close": "2025-07-01T05:28:27.000Z",
-    "start_date": "2025-07-05",
-    "end_date": "2025-07-05",
-    "website": "https://www.worldcubeassociation.org/competitions/CopinginAuckland2025",
-    "url": "https://www.worldcubeassociation.org/competitions/CopinginAuckland2025",
-    "latitude_degrees": -37.102408,
-    "longitude_degrees": 174.952624,
-    "event_ids": [
-      "333",
-      "222",
-      "555",
-      "333bf",
-      "pyram",
-      "skewb"
-    ],
-    "date_range": "Jul 5, 2025"
-  },
-  {
     "id": "WaihopaiWinter2025",
     "name": "Waihopai Winter 2025",
     "venue": "Invercargill City Library",
