@@ -10,7 +10,7 @@
     {name: "David Lim", roles: "WCA Delegate", src: "david.jpg"},
     {name: "Luke Heath-Edwards", roles: "WCA Delegate", src: "luke.jpg"},
     {name: "Daniel Fraser", roles: "WCA Delegate", src: "daniel.jpg"},
-    {name: "Liam Wadek", roles: "WCA Junior Delegate", src: "liam.jpg"},
+    {name: "Liam Wadek", roles: "WCA Delegate", src: "liam.jpg"},
     {name: "Caleb Hall", roles: "WCA Junior Delegate", src: "caleb.jpg"},
     {name: "Jack Maddigan", roles: "WCA Junior Delegate", src: "jack.jpg"},
     {name: "James Dyer", roles: "WCA Trainee Delegate", src: "james-d.jpg"},
