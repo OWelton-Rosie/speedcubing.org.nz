@@ -6,7 +6,7 @@
 
 <div class="events">
   {#each events as e}
-    <img src="/icons/events/{e}.svg" class="icon" alt="WCA Icon">
+     <span class='cubing-icon icon event-{e}'></span>
   {/each}
 </div>
 
@@ -20,10 +20,9 @@
   }
   .icon {
     /* Same as h4 text size */
-    width:  clamp(0.8rem, 0.8vw, 1rem);
-    height:  clamp(0.8rem, 0.8vw, 1rem);
+    font-size:  clamp(0.8rem, 0.8vw, 1rem);
     display: inline-block;
-    filter: invert(80%);
+    color: var(--colorGrey2);
   }
  
 </style>
