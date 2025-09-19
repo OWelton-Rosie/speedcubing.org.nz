@@ -124,6 +124,29 @@
     "date_range": "Nov 15, 2025"
   },
   {
+    "id": "NxNsinNovemberOtautahi2025",
+    "name": "NxNs in November - Ōtautahi 2025",
+    "venue": "Rārākau: Riccarton Centre",
+    "city": "Christchurch",
+    "registration_open": "2025-10-01T00:00:00.000Z",
+    "registration_close": "2025-10-29T00:00:00.000Z",
+    "start_date": "2025-11-02",
+    "end_date": "2025-11-02",
+    "website": "https://www.worldcubeassociation.org/competitions/NxNsinNovemberOtautahi2025",
+    "url": "https://www.worldcubeassociation.org/competitions/NxNsinNovemberOtautahi2025",
+    "latitude_degrees": -43.530306,
+    "longitude_degrees": 172.601847,
+    "event_ids": [
+      "333",
+      "444",
+      "555",
+      "666",
+      "777",
+      "333oh"
+    ],
+    "date_range": "Nov 2, 2025"
+  },
+  {
     "id": "NZCubingDecathlon2025",
     "name": "New Zealand Cubing Decathlon 2025",
     "venue": "Pakuranga United Rugby Club, Montressor's Function Centre",
@@ -198,30 +221,6 @@
     "date_range": "Sep 21, 2025"
   },
   {
-    "id": "BeachsideAuckland2025",
-    "name": "Beachside Auckland 2025",
-    "venue": "Bucklands and Eastern Beaches Memorial Hall",
-    "city": "Auckland",
-    "registration_open": "2025-06-15T13:00:00.000Z",
-    "registration_close": "2025-09-18T00:00:00.000Z",
-    "start_date": "2025-09-20",
-    "end_date": "2025-09-20",
-    "website": "https://speedcubing.org.nz/",
-    "url": "https://www.worldcubeassociation.org/competitions/BeachsideAuckland2025",
-    "latitude_degrees": -36.868519,
-    "longitude_degrees": 174.903751,
-    "event_ids": [
-      "333",
-      "222",
-      "444",
-      "555",
-      "clock",
-      "pyram",
-      "sq1"
-    ],
-    "date_range": "Sep 20, 2025"
-  },
-  {
     "id": "EyesOpenOpenOtautahi2025",
     "name": "Eyes Open Open - Ōtautahi 2025",
     "venue": "WEA Christchurch",
@@ -250,6 +249,30 @@
       "sq1"
     ],
     "date_range": "Sep 20 - 21, 2025"
+  },
+  {
+    "id": "BeachsideAuckland2025",
+    "name": "Beachside Auckland 2025",
+    "venue": "Bucklands and Eastern Beaches Memorial Hall",
+    "city": "Auckland",
+    "registration_open": "2025-06-15T13:00:00.000Z",
+    "registration_close": "2025-09-18T00:00:00.000Z",
+    "start_date": "2025-09-20",
+    "end_date": "2025-09-20",
+    "website": "https://speedcubing.org.nz/",
+    "url": "https://www.worldcubeassociation.org/competitions/BeachsideAuckland2025",
+    "latitude_degrees": -36.868519,
+    "longitude_degrees": 174.903751,
+    "event_ids": [
+      "333",
+      "222",
+      "444",
+      "555",
+      "clock",
+      "pyram",
+      "sq1"
+    ],
+    "date_range": "Sep 20, 2025"
   },
   {
     "id": "NZCubingintheCapital2025",
