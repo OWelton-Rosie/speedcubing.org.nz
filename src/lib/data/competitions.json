@@ -327,33 +327,5 @@
       "sq1"
     ],
     "date_range": "Aug 30 - 31, 2025"
-  },
-  {
-    "id": "SolveWellinWellington2025",
-    "name": "Solve Well in Wellington 2025",
-    "venue": "Victoria University of Wellington, Kelburn Campus",
-    "city": "Wellington",
-    "registration_open": "2025-08-16T06:00:00.000Z",
-    "registration_close": "2025-08-18T06:00:00.000Z",
-    "start_date": "2025-08-23",
-    "end_date": "2025-08-24",
-    "website": "https://www.worldcubeassociation.org/competitions/SolveWellinWellington2025",
-    "url": "https://www.worldcubeassociation.org/competitions/SolveWellinWellington2025",
-    "latitude_degrees": -41.290488,
-    "longitude_degrees": 174.767793,
-    "event_ids": [
-      "333",
-      "222",
-      "444",
-      "555",
-      "666",
-      "777",
-      "333bf",
-      "333oh",
-      "minx",
-      "pyram",
-      "333mbf"
-    ],
-    "date_range": "Aug 23 - 24, 2025"
   }
 ]
