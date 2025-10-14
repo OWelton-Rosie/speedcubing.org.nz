@@ -3,6 +3,7 @@
 </svelte:head>
 
 <script>
+  import PostContainer from '$lib/components/posts/PostContainer.svelte';
   import Carousel from "./home/Carousel.svelte";
   import Hero from "./home/Hero.svelte";
   import ImageLinks from "./home/ImageLinks.svelte";
@@ -13,4 +14,5 @@
 <Carousel></Carousel>
 <Hero></Hero>
 <ImageLinks></ImageLinks>
+<PostContainer></PostContainer>
 <Subscribe></Subscribe>
