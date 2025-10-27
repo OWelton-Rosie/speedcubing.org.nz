@@ -236,30 +236,5 @@
       "333mbf"
     ],
     "date_range": "Oct 25 - 26, 2025"
-  },
-  {
-    "id": "HastyHastings2025",
-    "name": "Hasty Hastings 2025",
-    "venue": "Frimley Park Community Hall",
-    "city": "Hastings",
-    "registration_open": "2025-06-06T06:00:00.000Z",
-    "registration_close": "2025-09-24T06:00:00.000Z",
-    "start_date": "2025-09-27",
-    "end_date": "2025-09-27",
-    "website": "https://www.worldcubeassociation.org/competitions/HastyHastings2025",
-    "url": "https://www.worldcubeassociation.org/competitions/HastyHastings2025",
-    "latitude_degrees": -39.626036,
-    "longitude_degrees": 176.830873,
-    "event_ids": [
-      "333",
-      "222",
-      "444",
-      "333oh",
-      "clock",
-      "minx",
-      "pyram",
-      "skewb"
-    ],
-    "date_range": "Sep 27, 2025"
   }
 ]
