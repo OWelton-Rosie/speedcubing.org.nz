@@ -1,0 +1,33 @@
+name: Update Kinch Rankings
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # weekly on Sunday
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run kinch updater
+        run: node src/lib/tasks/update_kinch.js
+
+      - name: Commit & push changes
+        run: |
+          git config --local user.email "github-actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add src/lib/data/kinch.json
+          git commit -m "Update kinch rankings" || echo "No changes"
+          git push

@@ -9,6 +9,7 @@
   import BioCarousel from "./BioCarousel.svelte";
   import Records from "./Records.svelte";
   import Champions from "./champions/Champions.svelte";
+  import KinchTable from "./kinch/KinchTable.svelte";
 
   const title = "NZ'S BEST";
   const imagePath = "/nzs-best/title-bg.webp";
@@ -24,9 +25,10 @@
   </p>
 </PageTitle>
 
-<Records></Records>
-
+<Records />
 <h2>CUBER BIOS</h2>
-<BioCarousel></BioCarousel>
+<BioCarousel />
+<Champions />
 
-<Champions></Champions>
+<!-- KinchTable loads its own JSON -->
+<KinchTable />
