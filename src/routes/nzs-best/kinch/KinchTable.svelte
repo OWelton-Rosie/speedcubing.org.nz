@@ -11,9 +11,9 @@
   }
 </script>
 
-<h1>KINCH RANKS</h1>
+<h1>COUNTRY RANKINGS</h1>
 
-<p class="kinch-yapping">Countries are ranked with a system called "Kinch ranks"</p>
+<p class="kinch-yapping">Countries are ranked with a system called "Kinch Ranks", where every National Record is given a score based on how it compares to the World Record in that event, and those scores are averaged to give an overalls score for a country.</p>
 
 <div class="table-wrapper">
   <table>
@@ -58,10 +58,13 @@
   }
 
   .kinch-yapping {
-    margin-top: 40px;
-    text-align: center;
+  margin: 40px auto 0 auto; /* top margin 40px, center horizontally */
+  text-align: center;
+  max-width: 1200px;       /* prevents it from stretching too wide */
+  padding: 0 20px;         /* adds space on left and right */
+  box-sizing: border-box;  /* ensures padding doesn’t break max-width */
+}
 
-  }
 
   .table-wrapper {
   padding: 0 40px;          /* desktop side padding */
