@@ -5,6 +5,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const filePath = path.join(__dirname, '../data/champions.json');
 import { centiToDisplay, decodeMbldResult } from "../helpers.js";
+import { fetchUnnoficialAPI } from './unofficialAPI.js';
 
 async function run(year){
   console.info("Updating champions for", year);
@@ -80,14 +81,6 @@ async function run(year){
   console.info("Update done.");
 }
 
-async function fetchUnnoficialAPI(path){
-  const res = await fetch(`https://raw.githubusercontent.com/robiningelbrecht/wca-rest-api/master/api/${path}.json`);
-  if(!res.ok){ 
-    console.warn("BAD RESPONSE FROM UNNOFICIAL WCA API " + path);
-    return [];
-    // throw new Error("BAD RESPONSE FROM UNNOFICIAL WCA API " + path); 
-  }
-  return (await res.json());
-}
+
 
 run(new Date().getUTCFullYear());

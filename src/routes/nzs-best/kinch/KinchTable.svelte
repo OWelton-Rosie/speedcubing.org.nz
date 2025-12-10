@@ -50,10 +50,10 @@
             </span>
           </td>
 
-          <td>{c.overall}</td>
+          <td>{c.overall.toFixed(2)}</td>
 
           {#each events as e}
-            <td>{c.scores[e]}</td>
+            <td>{c.scores[e].toFixed(2)}</td>
           {/each}
         </tr>
       {/each}
@@ -64,7 +64,7 @@
 <br>
 
 <p class="kinch-yapping">
-  More rows can be found <a href="https://wca.cuber.pro/" target="_blank">here</a>.
+  More rows can be found <a href="https://jackmaddigan.github.io/kinch/" target="_blank">here</a>.
 </p>
 
 <style>
