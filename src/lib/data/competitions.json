@@ -271,28 +271,5 @@
       "555bf"
     ],
     "date_range": "Nov 22, 2025"
-  },
-  {
-    "id": "DrurySummer2025",
-    "name": "Drury Summer 2025",
-    "venue": "Drury Hall ",
-    "city": "Auckland",
-    "registration_open": "2025-08-09T00:00:00.000Z",
-    "registration_close": "2025-11-12T00:00:00.000Z",
-    "start_date": "2025-11-15",
-    "end_date": "2025-11-15",
-    "website": "https://www.worldcubeassociation.org/competitions/DrurySummer2025",
-    "url": "https://www.worldcubeassociation.org/competitions/DrurySummer2025",
-    "latitude_degrees": -37.102396,
-    "longitude_degrees": 174.952777,
-    "event_ids": [
-      "333",
-      "222",
-      "444",
-      "333oh",
-      "skewb",
-      "sq1"
-    ],
-    "date_range": "Nov 15, 2025"
   }
 ]
