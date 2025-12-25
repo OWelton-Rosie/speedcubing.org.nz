@@ -53,9 +53,9 @@
     {/each}
   </div>
 
-  <!-- Dynamic table heading -->
+  <!-- Dynamic table heading (fully uppercase) -->
   <h2 class="event-heading">
-    {eventNames[eventOrder.indexOf(currentEvent)]} - {championshipNames[currentChampionship]} Champions
+    {eventNames[eventOrder.indexOf(currentEvent)].toUpperCase()} - {championshipNames[currentChampionship].toUpperCase()} CHAMPIONS
   </h2>
 
   <!-- Event champions table -->
@@ -143,7 +143,7 @@
 
   .event-heading {
     text-align: center;
-    margin: 8px 0; /* closer to icons above and table below */
+    margin: 8px 0; /* closer to table and icons */
     font-size: 1.5rem;
     color: #fff;
   }
