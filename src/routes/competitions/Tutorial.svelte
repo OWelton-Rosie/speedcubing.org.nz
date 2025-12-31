@@ -42,9 +42,7 @@
         After that, a good rule of thumb is that a venue needs to be 4 square meters
         per competitor, and cost no more than $30 per competitor.<br /><br />If
         you think you've found a suitable venue and want to go further, please
-        read our
-        <a href="/docs/organiser-guide.pdf">organiser guide</a> to learn
-        more, and contact us with the venue details so we can guide you through the
+        contact us with the venue details so we can guide you through the
         rest of the process!
       </p>
     </ContentColumn>
