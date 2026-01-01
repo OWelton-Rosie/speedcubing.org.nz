@@ -17,18 +17,17 @@ npm install
 ```
 We use npm, but equivalent commands using `pnpm` or `yarn` will work. 
 
-3. To start the dev server and open the app on [localhost:5173](http://localhost:5173), with:
+3. To start the dev server and open the app on [localhost:5173](http://localhost:5173), run:
 ```bash
 npm run dev
 ```
 
-
-Or build a production version of your app with:
+Alternatively, build a production version of your app (available on [localhost:4173](http://localhost:4173/)) with:
 ```bash
 npm run build
 ```
 
-If you wish to view the production version of your app:
+You can view the production version with:
 ```bash
 npm run preview
 ```
