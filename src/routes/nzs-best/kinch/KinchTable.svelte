@@ -74,6 +74,7 @@
     margin: 16px 32px;
     max-width: 100%;
     overflow-x: auto;
+    max-height: calc(100svh - 150px);
     -webkit-overflow-scrolling: touch;
   }
 
@@ -162,7 +163,6 @@
   @media screen and (max-width: 769px) {
     .table-wrapper {
       margin: 16px;
-      max-height: calc(100svh - 150px);
     }
   }
 </style>
