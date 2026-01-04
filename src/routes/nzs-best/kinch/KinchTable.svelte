@@ -134,12 +134,17 @@
     left: 0;
     min-width: 3em;
     max-width: 3em;
+    border-left: 1px solid var(--colorBlack1);
   }
 
   .col-2 {
     position: sticky;
     text-align: left;
     left: 3em;
+  }
+
+  thead th {
+    border-top: 1px solid var(--colorBlack1);
   }
 
   tbody .col-1, tbody .col-2 {
