@@ -59,7 +59,8 @@
     justify-content: space-around;
     align-items: center;
     background-color: var(--colorBlack3);
-    transition: height 0.25s ease, padding 0.25s ease;
+    transition: height 0.4s ease, padding 0.4s ease;
+    overflow-anchor: none;
   }
 
   .header.scrolled {
