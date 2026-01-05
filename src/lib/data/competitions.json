@@ -227,23 +227,5 @@
       "333mbf"
     ],
     "date_range": "Dec 12 - 14, 2025"
-  },
-  {
-    "id": "FMCNewZealand2025",
-    "name": "FMC New Zealand 2025",
-    "venue": "Multiple venues. [Please see the Locations tab](#63083-locations)",
-    "city": "Multiple cities",
-    "registration_open": "2025-08-23T06:00:00.000Z",
-    "registration_close": "2025-12-03T10:59:00.000Z",
-    "start_date": "2025-12-06",
-    "end_date": "2025-12-06",
-    "website": "https://www.worldcubeassociation.org/competitions/FMCNewZealand2025",
-    "url": "https://www.worldcubeassociation.org/competitions/FMCNewZealand2025",
-    "latitude_degrees": -40.900557,
-    "longitude_degrees": 174.885971,
-    "event_ids": [
-      "333fm"
-    ],
-    "date_range": "Dec 6, 2025"
   }
 ]
