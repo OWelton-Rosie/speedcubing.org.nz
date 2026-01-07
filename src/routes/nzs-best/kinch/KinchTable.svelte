@@ -31,7 +31,7 @@
 <h1>COUNTRY RANKINGS</h1>
 
 <ContentColumn>
-  <p>
+  <p class="kinch-text">
     Countries are ranked with a system called "Kinch Ranks", where every
     National Record is given a score based on how it compares to the World
     Record in that event, and those scores are averaged to give an overalls
@@ -79,7 +79,7 @@
 
 <br />
 
-<p class="kinch-yapping">
+<p class="kinch-text">
   More rows can be found <a
     href="https://jackmaddigan.github.io/kinch/"
     target="_blank">here</a
@@ -87,6 +87,10 @@
 </p>
 
 <style>
+  .kinch-text {
+    text-align: center;
+  }
+
   .table-wrapper {
     margin: 16px 32px;
     max-width: 100%;
