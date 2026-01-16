@@ -16,6 +16,8 @@
     {name: "Jack Maddigan", roles: "WCA Junior Delegate", src: "jack.jpg", link: "https://www.worldcubeassociation.org/persons/2020MADD02"},
     {name: "James Dyer", roles: "WCA Trainee Delegate", src: "james-d.jpg", link: "https://www.worldcubeassociation.org/persons/2019DYER01"},
     {name: "Nick Ng", roles: "WCA Trainee Delegate", src: "Nick.png", link: "https://www.worldcubeassociation.org/persons/2024NGNI01"},
+    {name: "Cheng-Ru Yang", roles: "WCA Trainee Delegate", src: "cheng.jpg", link: "https://www.worldcubeassociation.org/persons/2015YANG23"},
+    {name: "Richard Yiheng Tao", roles: "WCA Trainee Delegate", src: "richard-t.jpg", link: "https://www.worldcubeassociation.org/persons/2020TAOR01"}
   ];
 </script>
 
